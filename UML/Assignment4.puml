@@ -34,10 +34,10 @@ Class ToDoListController{
 - CheckItemComplete: JFXCheckBox
 - AddNewListButton: JFXButton
 }
+
+List <- EditItem
 ToDoListController - EditItem
 ToDoListController - List
-List <- EditItem
 App <- ToDoListController
-
 App -|> javafx.application.Application
 @enduml
