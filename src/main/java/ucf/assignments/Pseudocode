@@ -1,0 +1,120 @@
+Class (JavaFxApplication) App
+
+    method main()
+        launch the fxml file
+    end of method
+
+    method start()
+        locates the fxml file
+        shows the stage in order to make the fxml file visible
+    end of method
+
+end class
+
+Class EditItem
+
+    method Edit_Status()
+        Controller determines if the item is marked as complete
+    end method
+
+    method Edit_Desc()
+        User will input a the description to description textfield
+        Description is return
+    end method
+
+    method Edit_DueDate()
+        User will select a date from the Date Picker
+        The Date will be returned
+    end method
+
+end class
+
+Class List
+
+    method ArrayList<> Add_List()
+        User will input a title when creating a new list
+        Once button is clicked, then new list will be added
+    end method
+
+    method ArrayList<> Remove_List()
+        User will click on the list they wished to be removed
+        Once button is clicked, the selected list will be removed
+    end method
+
+end class
+
+Class ToDoListController
+        Copied "Controller Skeleton" from Scenebuilder
+
+        method MenuBar()
+            Create Menu bar from Scenebuilder
+            Create Menu (File, Edit, Help, etc.)
+            Create Menu Items
+            User will click necessary buttons to create, save, copy, paste and etc.
+        end method
+
+        method ViewList()
+            Create ListView from Scenebuilder
+            Shows all the Lists the user added
+        end method
+
+        method CheckListComplete()
+            Create CheckBox from Scenebuilder
+            User will click on the box if list is complete or incomplete
+        end method
+
+        method LoadListButton()
+            Create Button from Scenebuilder
+            User will click to view the items within the list
+        end method
+
+        method DeleteList()
+            Create Button from Scenebuilder
+            User will click the list they wish to remove
+            Once Delete button is clicked, list will be removed
+        end method
+
+        method EditList()
+            Create Button from Scenebuilder
+            User will click the list they wish to edit
+            Once Edit button is clicked, user will be allowed to rename the list
+        end method
+
+        method DueDate()
+            Create Date Picker from Scenebuilder
+            User will select a Due Date of the item
+        end method
+
+        method ViewDescription
+            Create tableview from Scenebuilder
+            User will input description, due date and status of the item
+        end of method
+
+        method DeleteItem()
+            Create Button from Scenebuilder
+            User will click the description they wish to remove
+            Once DeleteButton is clicked, description will be removed
+        end of method
+
+        method EditItem()
+            Create Button from Scenebuilder
+            User will click the either the description, status, or due date
+            Once EditButton is clicked, user will be allowed to edit
+        end of method
+
+        method CheckItemComplete()
+            Create CheckBox from Scenebuilder
+            User will click on the box if item is complete or incomplete
+        end of method
+
+end of class
+
+
+
+
+
+
+
+
+
+
