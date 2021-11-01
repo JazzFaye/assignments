@@ -16,10 +16,8 @@ public class List {
         return items;
     }
     public void Save_List(String Save){
-
     }
 
     public void Load_List (String FileName){
-
     }
 }

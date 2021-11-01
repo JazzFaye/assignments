@@ -37,8 +37,18 @@ Class List
     end method
 
     method ArrayList<> Remove_List()
-        User will click on the list they wished to be removed
+        User will click the list to be removed
         Once button is clicked, the selected list will be removed
+    end method
+
+    method Save_List()
+        User will click the list to be saved
+        Once button is clicked, selected list will convert to .csv file
+    end method
+
+    method Load_List()
+        User will select the list to load
+        Once button is clicked, selected list will load
     end method
 
 end class

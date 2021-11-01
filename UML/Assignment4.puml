@@ -10,8 +10,10 @@ Class EditItem{
 + Edit_DueDate(D_date: Date): Date
 }
 Class List{
-~ Add_List(items : ArrayList<EditItem>, item : EditItem): ArrayList<EditItem>
-~ Remove_List(items : ArrayList<EditItem>, item : EditItem): ArrayList<EditItem>
++ Add_List(items : ArrayList<EditItem>, item : EditItem): ArrayList<EditItem>
++ Remove_List(items : ArrayList<EditItem>, item : EditItem): ArrayList<EditItem>
++ Save_List(Save : String) : void
++ Load_List(FileName : String) : void
 }
 Class ToDoListController{
 - ViewList: JFXListView
